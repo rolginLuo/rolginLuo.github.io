@@ -1,1 +1,36 @@
-!function(n,t){function e(n){this.index=0,this.len=n}e.prototype={prev:function(){return this.getIndex(-1)},next:function(){return this.getIndex(1)},getIndex:function(n){var t=this.index,e=this.len,i=(e+t+n)%e;return this.index=i}},t.controlIndex=e}(window.Zepto,window.player||(window.player={}));
+(function($, root){
+    function Control(len) {
+        this.index = 0;
+        this.len = len;
+    }
+    Control.prototype = {
+        prev: function () {
+            // if(this.index == 0){
+            //     this.index = len -1;
+            // }else{
+            //     this.index --;
+            // }
+            return this.getIndex(-1);
+        },
+        next: function () {
+            // if(this.index == len -1){
+            //     this.index = 0;
+            // }else{
+            //     this.index ++;
+            // }
+            return this.getIndex(1);
+        },
+        // 计算改变后的索引
+        getIndex: function (val) {
+            // 当前对应索引
+            var index = this.index;
+            // 数据总长度
+            var len = this.len;
+            var curIndex = (len + index + val) % len;
+            this.index = curIndex;
+            // 改变后的索引
+            return curIndex;
+        }
+    }
+    root.controlIndex = Control;
+})(window.Zepto, window.player || (window.player = {}));
