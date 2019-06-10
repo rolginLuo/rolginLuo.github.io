@@ -1,0 +1,32 @@
+[
+    {
+        "minImage": "/source/song_1.jpg",
+        "image": "https://p3fx.kgimg.com/stdmusic/20150715/20150715184807521489.jpg",
+        "audio": "https://webfs.yun.kugou.com/201906101218/cb7fc08c761edda7a40eba03cc1349b7/G137/M03/17/1D/aZQEAFt-jsuAFmXqAD2w54GV4Z0351.mp3",
+        "song": "丑八怪",
+        "album": "意外",
+        "singer": "薛之谦",
+        "duration": 253,
+        "isLike": true
+    },
+    {
+        "minImage": "/source/song_2.jpg",
+        "image": "https://p3fx.kgimg.com/stdmusic/20160726/20160726002114576109.jpg",
+        "audio": "https://webfs.yun.kugou.com/201906101238/218c4d18d2bb2acd8dba19775d86e624/G072/M01/0F/19/KJQEAFeWOtGAcWv_AEiV-UU1pOQ643.mp3",
+        "song": "小半",
+        "album": "小梦大半",
+        "singer": "陈粒",
+        "duration": 297,
+        "isLike": false
+    },
+    {
+        "minImage": "/source/song_3.jpg",
+        "image": "https://p3fx.kgimg.com/stdmusic/20170106/20170106141223774538.jpg",
+        "audio": "https://webfs.yun.kugou.com/201906101243/469d22fba98ee3cfd989c4e49a13d834/G081/M03/0A/19/kQ0DAFhwQ6yAATGMADkTkHPxRdg627.mp3",
+        "song": "Shape of You",
+        "album": "÷",
+        "singer": "ed sheeran",
+        "duration": 235,
+        "isLike": false
+    }
+]
